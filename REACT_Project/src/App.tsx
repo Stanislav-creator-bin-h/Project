@@ -5,12 +5,12 @@ function App() {
     {
       name: "Leanne Graham",
       role: "Developer",
-      avatarUrl: "./Materials/Screenshot 2025-05-11 030830.png",
+      avatarUrl: "/Materials/Screenshot 2025-05-11 030830.png",
     },
     {
       name: "Chelsey Dietrich",
       role: "Team Lead",
-      avatarUrl: "./Materials/Screenshot 2025-05-26 092539.png",
+      avatarUrl: "/Materials/Screenshot 2025-05-26 092539.png",
     },
   ];
 
