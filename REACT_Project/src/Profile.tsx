@@ -1,4 +1,10 @@
-function Profile({ name, role, avatarUrl }) {
+interface ProfileProps {
+  name: string;
+  role: string;
+  avatarUrl: string;
+}
+
+function Profile({ name, role, avatarUrl }: ProfileProps) {
   return (
     <div className="profile-card">
       <img src={avatarUrl} alt={name} className="avatar" />
