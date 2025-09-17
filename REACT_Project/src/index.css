@@ -14,6 +14,7 @@ body {
   color: var(--muted);
 }
 
+h1 { text-align: center; margin: 1.25rem 0; }
 
 .profile-list {
   display: flex;

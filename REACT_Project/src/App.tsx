@@ -1,23 +1,24 @@
-import Profile from "./Profile";
+import Profile from "./components/Profile";
 
 function App() {
   const users = [
     {
       name: "Leanne Graham",
       role: "Developer",
-      avatarUrl: "/Materials/Screenshot 2025-05-11 030830.png",
+      avatarUrl: "https://thumbs.dreamstime.com/b/business-woman-avatar-illustration-simple-cartoon-user-portrait-leader-profile-icon-vector-277139072.jpg",
     },
     {
       name: "Chelsey Dietrich",
       role: "Team Lead",
-      avatarUrl: "/Materials/Screenshot 2025-05-26 092539.png",
+      avatarUrl: "https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-image-for-profile-png-image_13001882.png",
     },
   ];
 
   return (
-    <div>
-      <h1>User Profiles</h1>
-      <div className="profile-list">
+    <main className="app">
+      <h1 className="title"> User Profiles</h1>
+
+      <section className="profile-list">
         {users.map((user, index) => (
           <Profile
             key={index}
@@ -26,8 +27,8 @@ function App() {
             avatarUrl={user.avatarUrl}
           />
         ))}
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 
